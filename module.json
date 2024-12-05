@@ -1,0 +1,31 @@
+{
+  "id": "pf2e-offguarder",
+  "title": "PF2e Off-Guarder",
+  "description": "Adds a Keybind for the Off Guard condition in the PF2e system.",
+    "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "eltariel",
+      "email": "foundryvtt@eltariel.com"
+    }
+  ],
+  "scripts": [
+    "/scripts/index.js"
+  ],
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "compatibility": {
+        "minimum": "6.7.0"
+      }
+    }]
+  },
+  "url": "https://github.com/eltariel/pf2e-offguarder",
+  "download":"https://github.com/eltariel/pf2e-offguarder/releases/latest/download/module.zip",
+  "manifest":"https://github.com/eltariel/pf2e-offguarder/releases/latest/download/module.json"
+}
